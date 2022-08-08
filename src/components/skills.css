@@ -1,0 +1,135 @@
+@font-face {
+    font-family: mod;
+    src: url(../fonts/Moderne\ Sans.ttf);
+}
+
+@font-face {
+    font-family: supply;
+    src: url(../fonts/Supply-Light.otf);
+}
+
+.mid-container {
+    background-color: #4e4e4e;
+    min-height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    
+
+}
+ .head {
+    color: #fff;
+    /* text-align: center; */
+    font-size: 3em;
+    font-family: mod;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+.pg {
+    color: #fff;
+    font-family: supply;
+    font-size: .8em;
+    padding-left: 30px; 
+
+
+}
+ .content-1 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 50%;
+    
+    
+ }
+ .container2 {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+ }
+ .content-1 h3 {
+    color: #fff;
+    font-size: 1em;
+    font-family: supply;
+    text-shadow: 2px 2px black;
+ }
+  .skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    border-radius: 6px;
+  }
+  .html {
+    width: 90%;
+    background: #24344d;
+  }
+  .css {
+    width: 92%;
+    background: #24344d;
+  }
+  .js {
+    width: 65%;
+    background: #24344d;
+  }
+  .react {
+    width: 60%;
+    background: #24344d;
+  }
+  .jq {
+    width: 90%;
+    background: #24344d;
+  }
+
+  .content-2 {
+    padding: 20px;
+  }
+
+  .content-2 h1{
+    color: #fff;
+    font-size: 3em;
+    font-family: mod;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: bolder;
+    margin: 0;
+  }
+  .pg2 {
+    color: #fff;
+    font-family: supply;
+    font-size: .8em;
+    padding-left: 30px; 
+    margin-bottom: 50px;
+    
+  }
+  .content-2 p {
+    color: #fff;
+    font-family: supply;
+    font-size: .8em;
+    
+  }
+
+  @media screen and (max-width: 769px) {
+    .mid-container{
+        flex-direction: column;
+    }
+    .head {
+        font-size: 2.1em;
+        text-align: center;
+        padding-left: 0;
+    }
+    .pg {
+        text-align: center;
+    }
+    .content-2 h1 {
+        font-size: 2.1em;
+        text-align: center;
+    }
+    .pg2 {
+        text-align: center;
+    }
+  }

@@ -1,0 +1,101 @@
+.main-port {
+   background-color: #4e4e4e;
+   color:#fff;
+   margin-top: 30px;
+}
+
+.main-port h1 {
+   font-size: 3em;
+   text-transform: uppercase;
+   text-shadow: 3px 3px black;
+   font-family: mod;
+   text-align: center;
+   margin: 0;
+   padding: 20px;
+}
+
+.ph {
+   color: #fff;
+   font-size: .9em;
+   font-family: supply;
+   text-align: center;
+   margin: 0;
+}
+
+.port-container {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+ .feat-img1 {
+   min-height: 300px;
+   width: 100%;
+   border-radius: 20px;
+ }
+
+ .feat-img2 {
+   min-height: 300px;
+   width: 100%;
+   border-radius: 20px;
+ }
+
+ figure {
+   margin: 0;
+   position: relative;
+ }
+  figcaption {
+   font-size: .9em;
+   padding: 5px;
+   background: #24344d;
+   opacity: .9; 
+   color: #fff;
+   position: absolute;
+   width: auto;
+   bottom:2px;
+   border-radius: 0 0 20px 20px;
+
+  }
+
+  figcaption h3 {
+    font-family: mod;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 2px;
+  }
+
+  .port-1 {
+   
+   display: flex;
+   padding: 30px; 
+   margin-top: 20px;
+  }
+
+  .port-2 {
+   display: flex;
+   padding: 30px;
+   margin-top: 20px;
+  }
+
+  @media screen and (max-width: 769px) {
+    .port-container {
+      flex-direction: column;
+    }
+    .main-port h1 {
+      font-size: 2.1em
+    }
+    .feat-img1 {
+      min-height: 250px;
+      width: 100%;
+    }
+    .feat-img2 {
+      min-height: 250px;
+      width: 100%;
+    }
+    figcaption {
+      font-size: .8em;
+     }
+
+  }

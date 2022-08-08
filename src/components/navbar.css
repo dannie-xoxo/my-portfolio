@@ -1,0 +1,126 @@
+@font-face {
+    font-family: anurati;
+    src: url(../fonts/anurati.otf);
+}
+@font-face {
+        font-family: mono;
+        src: url(../fonts/Monospace.ttf);
+}
+
+@font-face {
+    font-family: mod;
+    src: url(../fonts/Moderne\ Sans.ttf);
+}
+
+@font-face {
+    font-family: supply;
+    src: url(../fonts/Supply-Light.otf);
+}
+.keyNav {
+    background-color: #24344d;
+    padding: 10px 30px;
+    border-radius: 30px 30px 0 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    
+}
+.mainNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.brand {
+    color: #fff;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: anurati;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+}
+.web {
+    color: white;
+    display: block;
+    font-size: .4em;
+    font-family: supply;
+    
+}
+.navItem {
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: supply;
+    font-weight: bolder;
+    
+}
+
+.toggler div {
+    width: 2.2em;
+    height: .2em;
+    margin: .4em;
+    background: #fff;
+    transition: 0.4s ease-in;
+} 
+
+.toggler {
+    margin-top: 10px;
+    display: none;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:769px) {
+    .toggler {
+        display: block;
+        
+    
+    }
+    
+    .mainNav {
+        position:fixed;
+        top: 10vh;
+        right: 0;
+        width: 50%;
+        height: 30%;
+        background: #24344d;
+        opacity: .9;
+        flex-direction:column;
+        transform: translateX(120%);
+         transition: 0.5s ease-in; 
+        margin: 10px 30px;
+        padding: 0;
+    }
+
+  
+}
+
+  /* Nav Active Class */
+  .nav-active {
+    transform: translateX(0);
+    position: absolute;   
+}
+
+/* Hamburger Icon Animation */
+ .toggle .line1 {
+    transform: rotate(-45deg) translate(-7px, 5px);
+ }
+ .toggle .line2 {
+    opacity: 0;
+ }
+ .toggle .line3 {
+    transform: rotate(45deg) translate(-7px, -5px);
+ }
+ 
