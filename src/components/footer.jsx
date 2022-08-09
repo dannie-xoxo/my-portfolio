@@ -11,7 +11,7 @@ function Footer () {
     return ( 
         <IconContext.Provider value= {{ color: '#24344d', size: '2em', margin: '10px'}}>
             <>
-        <footer className='main-footer'>
+        <footer className='main-footer' id='foot'>
             <div className='footer-cont'>
             <div className="content1">
                 <h1 className="headerr">Contact with me</h1>
