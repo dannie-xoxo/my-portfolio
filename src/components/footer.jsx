@@ -32,7 +32,7 @@ function Footer () {
             </div>
 
         <div className='content2'>
-            <form action='{https://getform.io/f/1861d489-eebb-424b-b383-4fe53780bd06}' method='POST'>
+            <form action='https://getform.io/f/1861d489-eebb-424b-b383-4fe53780bd06' method='POST'>
                 <label>
                     <input type='text' placeholder='E-mail' name='email' required/>
                     </label>
