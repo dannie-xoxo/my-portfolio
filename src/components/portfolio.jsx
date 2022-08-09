@@ -12,7 +12,7 @@ const Portfolio = () => {
         <div className='port-container'>  
           <div className="port-1">
             <figure>
-            <img className="feat-img1" src={aryn} />
+            <img className="feat-img1" src={aryn} alt=""/>
               <figcaption>
               <h3>Online Store</h3>
           <p>One of the selection of recent projects.
@@ -25,7 +25,7 @@ const Portfolio = () => {
           </div>
           <div className="port-2">
           <figure>
-            <img className="feat-img2" src={poem}/>
+            <img className="feat-img2" src={poem} alt=""/>
               <figcaption>
             <h3>Poetry Website</h3>
           <p>Another selection of recent projects.
