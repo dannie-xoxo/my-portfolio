@@ -46,7 +46,7 @@ svg {
 
  .content2 {
     flex: 1 50%;
-    padding: 20px;
+    padding: 25px;
     justify-content: center;
  }   
 
@@ -85,7 +85,7 @@ input {
     font-weight: bolder; 
     text-transform: uppercase;
     cursor: pointer;
-    width: 25%
+    width: 30%;
 }
 
 @media screen and (max-width: 769px) {
