@@ -16,7 +16,9 @@ function Footer () {
             <div className="content1">
                 <h1 className="headerr">Contact with me</h1>
                 <img className='icon' src={mail} alt=""/>
-              <p className='pg3'> orisaekedanielbryan@gmail.com</p> 
+              <p className='pg3'>
+                <a href='mailto:orisaekedanielbryan@gmail.com'>orisaekedanielbryan@gmail.com</a>
+                </p> 
               <img className='icon' src={phone} alt="" />
                 <p  className='pg3'> +234 70 4677 8295</p>
                 <img className='icon' src={location} alt=""/>
