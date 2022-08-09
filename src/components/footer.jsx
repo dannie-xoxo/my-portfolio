@@ -15,11 +15,11 @@ function Footer () {
             <div className='footer-cont'>
             <div className="content1">
                 <h1 className="headerr">Contact with me</h1>
-                <img className='icon' src={mail} />
+                <img className='icon' src={mail} alt=""/>
               <p className='pg3'> orisaekedanielbryan@gmail.com</p> 
-              <img className='icon' src={phone} />
+              <img className='icon' src={phone} alt="" />
                 <p  className='pg3'> +234 70 4677 8295</p>
-                <img className='icon' src={location} />
+                <img className='icon' src={location} alt=""/>
                  <p className='pg3'>Lagos, Nigeria.</p>
                  <div className='icon1'>
                 <FaFacebookF />

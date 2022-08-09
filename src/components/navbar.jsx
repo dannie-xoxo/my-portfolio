@@ -20,9 +20,9 @@ function Navbar() {
     
     
              <ul className= {active}>
-                <li className='navItem'><a href="#"className='navLink'>About</a></li>
-                <li className='navItem'><a href="#" className='navLink'>Portfolio</a></li>
-                <li className='navItem'><a href="#" className='navLink'>Contact</a></li>
+                <li className='navItem'><a href="./components/skills.jsx" className='navLink'>About</a></li>
+                <li className='navItem'><a href="./components/portfolio.jsx" className='navLink'>Portfolio</a></li>
+                <li className='navItem'><a href="./components/footer.jsx" className='navLink'>Contact</a></li>
             </ul> 
             <div onClick={toggle} className={toggleIcon}>
                 <div className="line1"></div>
