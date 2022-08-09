@@ -15,9 +15,10 @@ const Portfolio = () => {
             <img className="feat-img1" src={aryn} />
               <figcaption>
               <h3>Online Store</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-             Repudiandae error, animi doloribus facilis suscipit necessitatibus
-              molestiae distinctio quo harum nostrum.</p>
+          <p>One of the selection of recent projects.
+            An e-commerce website made for the sole purpose of 
+            ordering their products online.
+          </p>
                 
               </figcaption>
             </figure>
@@ -27,9 +28,11 @@ const Portfolio = () => {
             <img className="feat-img2" src={poem}/>
               <figcaption>
             <h3>Poetry Website</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-             Repudiandae error, animi doloribus facilis suscipit necessitatibus
-              molestiae distinctio quo harum nostrum.</p>
+          <p>Another selection of recent projects.
+            This is a website made for readers and poets to read and upload
+            their works, 
+
+          </p>
               </figcaption>
             </figure>
           </div>

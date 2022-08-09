@@ -22,9 +22,10 @@ const Section=()=> {
      <p> A Front end Developer who focuses on writing clean,<br></br>
                  elegant and efficient code.</p>
                 
-     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br></br>
-        Alias nulla maxime explicabo temporibus praesentium? <br></br>
-        Excepturi magni repudiandae aperiam obcaecati cumque?<br></br>
+     <p>I offer services  from landing pages to full website with<br></br>
+     preciseness and accuracy<br></br>
+        If you have a plan for me or you request of my services <br></br>
+        you can send me a message and I'll be right there.<br></br>
          </p>
           <p> My Stack consists of: 
 
@@ -33,7 +34,9 @@ const Section=()=> {
               <span className='cursor'>_</span>
            </span>
           </p>
+          <a href="./assets/Daniel's CV.pdf" download>
     <button className="btn">Download cv <HiDocumentDownload size='1.2em' /></button>
+    </a>
         </header>
     </section>
     

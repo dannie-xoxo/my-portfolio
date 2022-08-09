@@ -1,10 +1,11 @@
 
-import { Typewriter } from 'react-simple-typewriter';
+
 import './App.css';
 import Navbar from './components/navbar';
 import Section from './components/section';
 import Skills from './components/skills'; 
 import Portfolio from './components/portfolio';
+import Footer from './components/footer';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
      <Section />
      <Skills />
      <Portfolio />
-     
+     <Footer />
     </div>
   );
 }
