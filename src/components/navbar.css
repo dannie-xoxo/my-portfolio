@@ -16,6 +16,11 @@
     font-family: supply;
     src: url(../fonts/Supply-Light.otf);
 }
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
 .keyNav {
     background-color: #24344d;
     padding: 10px 30px;
