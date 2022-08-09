@@ -30,7 +30,7 @@ const Portfolio = () => {
             <h3>Poetry Website</h3>
           <p>Another selection of recent projects.
             This is a website made for readers and poets to read and upload
-            their works, 
+            their works. 
 
           </p>
               </figcaption>
