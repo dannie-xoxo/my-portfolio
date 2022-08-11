@@ -88,6 +88,15 @@ input {
     width: 30%;
 }
 
+.content3 {
+    background-color: #24344d;
+    padding:  30px;
+    text-align: center;
+    font-family: mod;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+}
+
 @media screen and (max-width: 769px) {
     .footer-cont {
         display: flex;

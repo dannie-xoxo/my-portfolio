@@ -47,6 +47,9 @@ function Footer () {
         
         </div>
         </div>
+        <div className='content3'>
+            <span>Copyright&copy; 2022 | Daniel Bryan</span>
+        </div>
         </footer>
         </>
         </IconContext.Provider>
