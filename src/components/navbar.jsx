@@ -4,7 +4,7 @@ function Navbar() {
     const [active, setActive] = useState('mainNav');
     const [toggleIcon, setToggleIcon] = useState('toggler');
     
-    const toggle= ()=> {
+    const toggle = ()=> {
         active ==='mainNav'
          ? setActive('mainNav nav-active')
          : setActive ('mainNav');
