@@ -14,20 +14,22 @@ function Footer () {
         <footer className='main-footer' id='foot'>
             <div className='footer-cont'>
             <div className="content1">
-                <h1 className="headerr">Contact with me</h1>
+                <h1 className="headerr">Contact me</h1>
                 <img className='icon' src={mail} alt=""/>
               <p className='pg3'>
                 <a href='mailto:orisaekedanielbryan@gmail.com'>orisaekedanielbryan@gmail.com</a>
                 </p> 
               <img className='icon' src={phone} alt="" />
-                <p  className='pg3'> +234 70 4677 8295</p>
+                <p  className='pg3'>
+                    <a href='tel: +234 70 4677 8295'> +234 70 4677 8295</a>
+                </p>
                 <img className='icon' src={location} alt=""/>
                  <p className='pg3'>Lagos, Nigeria.</p>
                  <div className='icon1'>
-                <FaFacebookF />
-                <FaTwitter />
-                <FaLinkedinIn/>
-                <FaGithub />
+                <a href='https://www.facebook.com'><FaFacebookF /></a>
+                <a href='https://www.twitter.com/@dannie_bry'><FaTwitter /></a>
+                <a href='https://www.linkedin.com/in/daniel-bryan-741266247'><FaLinkedinIn/></a>
+                <a href='https://www.github.com/dannie-xoxo'><FaGithub /></a>
                 </div>
             </div>
 
@@ -48,7 +50,7 @@ function Footer () {
         </div>
         </div>
         <div className='content3'>
-            <span>Copyright&copy; 2022 | Daniel Bryan</span>
+            <span>Copyright&copy; 2022 | Daniel Orisaeke</span>
         </div>
         </footer>
         </>

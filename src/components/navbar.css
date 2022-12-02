@@ -68,8 +68,11 @@ a {
     padding: 20px;
     text-transform: uppercase;
     font-family: supply;
-    font-weight: bolder;
-    
+    font-weight: bolder; 
+    transition: ease-out 1s;  
+}
+.navItem:hover {
+    text-decoration: underline 3px solid #fff ;
 }
 
 .toggler div {
@@ -90,8 +93,6 @@ a {
 @media screen and (max-width:769px) {
     .toggler {
         display: block;
-        
-    
     }
     
     .mainNav {
@@ -104,7 +105,7 @@ a {
         opacity: .9;
         flex-direction:column;
         transform: translateX(120%);
-         transition: 0.5s ease-in; 
+        transition: 0.5s ease-in; 
         margin: 10px 30px;
         padding: 0;
     }

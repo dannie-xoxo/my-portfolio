@@ -18,7 +18,7 @@ const Section=()=> {
     
  <section className="top-container">
  <header className="content">
-    <h1>Hi, I'm Daniel Bryan</h1>
+    <h1>Hi, I'm Daniel Orisaeke</h1>
      <p> A Front end Developer who focuses on writing clean,<br></br>
                  elegant and efficient code.</p>
                 

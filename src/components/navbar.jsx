@@ -22,7 +22,7 @@ function Navbar() {
              <ul className= {active}>
                 <li className='navItem'><a href="#skills" className='navLink'>About</a></li>
                 <li className='navItem'><a href="#port-f" className='navLink'>Portfolio</a></li>
-                <li className='navItem'><a href="tel:+234 70 4677 8295" className='navLink'>Contact</a></li>
+                <li className='navItem'><a href="#foot" className='navLink'>Contact</a></li>
             </ul> 
             <div onClick={toggle} className={toggleIcon}>
                 <div className="line1"></div>
